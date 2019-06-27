@@ -60,7 +60,6 @@ const signOut = event => {
 };
 
 const setupAccount = () => {
-  console.log(appUser.photoURL);
   const img = document.createElement("img");
   img.src = appUser.photoURL;
   const src = document.getElementById("photo");
